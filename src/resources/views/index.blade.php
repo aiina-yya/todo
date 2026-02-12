@@ -14,7 +14,7 @@
 <div class="todo__content">
     <form class="create-form">
         <div class="create-form__item">
-            <input class=create-form__item-input type="text" name="content">
+            <input class="create-form__item-input" type="text" name="content">
         </div>
         <div class="create-form__button">
             <button class="create-form__button-submit" type="submit">作成</button>
@@ -38,9 +38,6 @@
                 </td>
                 <td class="todo-table__item"">
                 <form class="delete-form">
-                    <div class="delete-form__item">
-                        <input  class="delete-form__item-input" type="text" name="content">
-                    </div>
                     <div class="delete-form__button">
                         <button class="delete-form__button-submit" type="submit">削除</button>
                     </div>
@@ -60,9 +57,6 @@
                 </td>
                 <td class="todo-table__item"">
                 <form class="delete-form">
-                    <div class="delete-form__item">
-                        <input  class="delete-form__item-input" type="text" name="content">
-                    </div>
                     <div class="delete-form__button">
                         <button class="delete-form__button-submit" type="submit">削除</button>
                     </div>
