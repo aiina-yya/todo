@@ -15,11 +15,11 @@ class TodoController extends Controller
         return view('index',['todos' => $todos]);
     }
 
-    public function store(Request $request)
+    public function store(TodoRequest $request)
     {
         $todo = $request->only(['content']);
         Todo::create($todo);
 
-        return redirect('/');
+        return redirect('/')->with('success','Todoを作成しました');
     }
 }
