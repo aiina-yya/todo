@@ -55,7 +55,7 @@
                 </td>
                 <td class="category-table__item"">
                 <form class="delete-form" action="/categories/delete" method="post">
-                    @method('delete')
+                    @method('DELETE')
                     @csrf
                     <input type="hidden" name="id" value="{{ $category['id'] }}">
                     <div class="delete-form__button">
